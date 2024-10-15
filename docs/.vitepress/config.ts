@@ -8,7 +8,7 @@ export default {
   base: '/class-docs/',
 
   themeConfig: {
-    logo: "$withBase('/logo.svg')",
+    logo: '/logo.svg',
     siteTitle: "Class-Docs",
     search: {
       provider: "local",
