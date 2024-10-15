@@ -5,7 +5,8 @@ export default {
   cleanUrls: true,
   // If this is disabled, when building it it will give deadlink errors if your markdown has the wrong links
   ignoreDeadLinks: true,
-  
+  base: 'https://mezrion.github.io/class-docs/',
+
   themeConfig: {
     logo: "/logo.svg",
     siteTitle: "Adocs",
